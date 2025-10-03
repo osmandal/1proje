@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Yukarıdaki 4 meta etiketi *mutlaka* head içinde ilk sırada olmalıdır; diğer tüm head içerikleri bunlardan *sonra* gelmelidir. -->
+
+    <!-- Başlık  -->
+    <title>OSMAN DAL - WEB PROJE | Ana Sayfa</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Çekirdek Stil CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Duyarlı (Responsive) CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Ön Yükleyici (Preloader) -->
+    <div id="preloader">
+        <div class="showbox">
+            <div class="loader">
+                <svg class="circular" viewBox="25 25 50 50">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+                </svg>
+            </div>
+        </div>
+        <div class="questions-area text-center">
+            <p>Biliyor muydunuz?</p>
+            <ul>
+                <li>En büyük fotoğraf yarışması 353.768 başvuru aldı.</li>
+                <li>Fotoğrafçılık dünyanın en zorlu mesleklerinden biridir.</li>
+                <li>Dünya üzerindeki boyutça en büyük fotoğraf albümü 13 ft 11.5 in x 17 ft ölçülerindeydi.</li>
+                <li>Dünyanın en büyük fotoğraf mozaiğinde 176.175 fotoğraf yer aldı.</li>
+                <li>Dünyanın en büyük kamera lensi, bir topa bağlanmış 5200 mm’lik bir lensti.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Gradyan Arkaplan Örtüsü -->
+    <div class="gradient-background-overlay"></div>
+
+    <!-- Başlık (Header) Alanı Başlangıç -->
+    <header class="header-area">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 h-100">
+                    <div class="main-menu h-100">
+                        <nav class="navbar h-100 navbar-expand-lg">
+                            <!-- Logo Alanı  -->
+                            <a class="navbar-brand" href="index.html"><img src="img/core-img/log.png" alt="Logo"></a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#studioMenu" aria-controls="studioMenu" aria-expanded="false" aria-label="Menüyü Aç/Kapat"><i class="fa fa-bars"></i> Menü</button>
+
+                            <div class="collapse navbar-collapse" id="studioMenu">
+                                <!-- Menü Alanı Başlangıç  -->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.html">Ana Sayfa <span class="sr-only">(geçerli)</span></a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="index.html">Ana Sayfa</a>
+                                            <a class="dropdown-item" href="about-me.html">Hakkımda</a>
+                                            <a class="dropdown-item" href="portfolio.html">Portföy</a>
+                                            <a class="dropdown-item" href="contact.html">İletişim</a>
+                                            <a class="dropdown-item" href="elements.html">Bileşenler</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-me.html">Hakkımda</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="portfolio.html">Portföy</a>
+                                    </li>
+            
+                                
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">İletişim</a>
+                                    </li>
+                                </ul>
+                                <!-- Arama Formu -->
+                                <div class="header-search-form ml-auto">
+                                    <form action="#">
+                                        <input type="search" class="form-control" placeholder="Anahtar kelimenizi yazıp Enter’a basın..." id="search" name="search">
+                                        <input class="d-none" type="submit" value="gönder">
+                                    </form>
+                                </div>                              
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Başlık (Header) Alanı Bitiş -->
+
+    <!-- Sosyal Kenar Çubuğu Alanı Başlangıç -->
+    <div class="social-sidebar-area bg-white">
+        <!-- Sosyal Alan -->
+        <div class="social-info-area">
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i> <span>Facebook</span></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i> <span>Twitter</span></a>
+            <a href="#" data-toggle="tooltip" data-placement="right" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i> <span>Pinterest</span></a>
+        </div>
+        <!-- Mesaj Kutusu -->
+        <div class="message-box">
+            <a href="#" data-toggle="modal" data-target=".contact-modal-lg"><img src="img/core-img/envelope.png" alt="Zarf"></a>
+        </div>
+    </div>
+    <!-- Sosyal Kenar Çubuğu Alanı Bitiş -->
+    
+    <!-- ***** Karşılama Alanı Başlangıç ***** -->
+    <section class="welcome-area">
+        <div class="carousel h-100 slide" data-ride="carousel" id="welcomeSlider">
+            <!-- Carousel İçeriği -->
+            <div class="carousel-inner h-100">
+
+                <div class="carousel-item h-100 bg-img active" style="background-image: url(img/bg-img/1.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>01.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/2.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>02.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/3.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>03.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/4.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>04.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/5.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>05.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/6.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>06.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/7.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>07.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/8.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>08.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/9.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>09.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/10.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>10.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/11.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>11.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/12.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>12.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item h-100 bg-img" style="background-image: url(img/bg-img/13.jpg);">
+                    <div class="carousel-content h-100">
+                        <div class="slide-text">
+                            <span>13.</span>
+                            <h2>TASARIMIN GÜCÜNE İNAN!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Göstergeleri (Indicators) -->
+            <ol class="carousel-indicators">
+                <li data-target="#welcomeSlider" data-slide-to="0" class="active bg-img" style="background-image: url(img/bg-img/1.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="1" class="bg-img" style="background-image: url(img/bg-img/2.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="2" class="bg-img" style="background-image: url(img/bg-img/3.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="3" class="bg-img" style="background-image: url(img/bg-img/4.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="4" class="bg-img" style="background-image: url(img/bg-img/5.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="5" class="bg-img" style="background-image: url(img/bg-img/6.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="6" class="bg-img" style="background-image: url(img/bg-img/7.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="7" class="bg-img" style="background-image: url(img/bg-img/8.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="8" class="bg-img" style="background-image: url(img/bg-img/9.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="9" class="bg-img" style="background-image: url(img/bg-img/10.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="10" class="bg-img" style="background-image: url(img/bg-img/11.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="11" class="bg-img" style="background-image: url(img/bg-img/12.jpg);"></li>
+                <li data-target="#welcomeSlider" data-slide-to="12" class="bg-img" style="background-image: url(img/bg-img/13.jpg);"></li>
+            </ol>
+        </div>
+    </section>
+    <!-- ***** Karşılama Alanı Bitiş ***** -->
+
+    <!-- ***** İletişim Alanı Başlangıç ***** -->
+    <div class="contact-popup-form" id="contact-modal-lg">
+        <div class="modal fade contact-modal-lg" tabindex="-1" role="dialog" aria-labelledby="contact-modal-lg" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="contact-heading-text text-center mb-30">
+                                    <span></span>
+                                    <h2>Lütfen bizimle iletişime geçin</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- İletişim Formu Alanı -->
+                    <div class="contact-form-area">
+                        <div class="container-fluid">
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Adınız">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="E‑posta adresiniz">
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Konu">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Mesaj"></textarea>
+                                    </div>
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn studio-btn mt-3"><img src="img/core-img/logo-icon.png" alt=""> Gönder</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** İletişim Alanı Bitiş ***** -->
+
+
+    <!-- Colorlib bağlantısı kaldırılamaz. Şablon CC BY 3.0 lisansı altındadır. -->
+<p>Telif Hakkı &copy;<script>document.write(new Date().getFullYear());</script> Tüm hakları saklıdır | Bu şablon <i class="fa fa-heart-o" aria-hidden="true"></i> ile <a href="https://colorlib.com" target="_blank">Colorlib</a> tarafından sevgiyle yapılmıştır</p>
+<!-- Colorlib bağlantısı kaldırılamaz. Şablon CC BY 3.0 lisansı altındadır. -->
+
+    <!-- jQuery (Tüm JavaScript Eklentileri için Gerekli) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Eklentiler js -->
+    <script src="js/plugins.js"></script>
+    <!-- Aktif js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
